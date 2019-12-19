@@ -204,6 +204,133 @@ button:hover {
 	text-align: center;
 }
 
+/* Services Page */
+
+.sbody {
+	max-width: 80%;
+	margin: auto;
+}
+
+
+.sheader {
+	padding-top: 2%;
+	width: 98%;
+}
+
+.snav-bar {
+	display: flex;
+	padding-left: 10%;
+}
+
+.slogo {
+	width: 100%;
+	height: auto;
+	margin-left: 20%;
+	margin-top: -5px;
+}
+
+.services-header-img {
+	width: 100%;
+	padding: 2% 0;
+}
+
+.h1-service {
+	font-size: 25px;
+	padding-top: 3px;
+}
+
+.h2-service {
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.s-services {
+	padding: 3% 0;
+}
+
+.p-services {
+	width: 100%;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 0;
+}
+
+.boxes {
+	border: 2px solid black;
+	background-color: rgb(238, 238, 238);
+	height: auto;
+	width: 45%;
+	padding: 20px;
+	margin: 1%;
+}
+
+.content p {
+	margin-bottom: 20px;
+}
+
+.service-button {
+	width: 200px;
+	height: 50px;
+	font-size: 1em;
+	color: black;
+	background-color: white;
+	padding-top: 1px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.last {
+	display: flex;
+	padding-top: 5%;
+}
+
+.last p {
+	padding: 15px 0;
+}
+
+.last ul {
+	list-style-type: square;
+	padding: 3%;
+}
+
+.last li {
+	padding: 1%;
+}
+
+.services-info-img {
+	flex: right;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+	.snav-bar {
+		display: flex;
+		margin-left: -10%;
+		padding: 2% 0;
+	}
+	
+	nav a {
+		padding-left: 3%;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+	 }
+
+	 .boxes {
+		 width: 100%;
+	 }
+
+	 .last {
+		 display: flex;
+		 flex-direction: column;
+	 }
+  }
 
 
 @media(max-width: 800px) {
