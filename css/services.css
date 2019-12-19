@@ -299,39 +299,6 @@ button:hover {
 	flex: right;
 }
 
-
-
-@media only screen and (max-width: 700px) {
-	.snav-bar {
-		display: flex;
-		margin-left: -10%;
-		padding: 2% 0;
-	}
-	
-	nav a {
-		padding-left: 3%;
-	}
-
-	.content {
-		display: flex;
-		flex-direction: column;
-	 }
-
-	 .slogo {
-		width: 200%;
-		height: 100%;
-	 }
-
-	 .boxes {
-		 width: 100%;
-	 }
-
-	 .last {
-		 display: flex;
-		 flex-direction: column;
-	 }
-  }
-
   
 @media(max-width: 800px) {
     body {
@@ -363,6 +330,10 @@ button:hover {
 	
 	/*Services CSS*/
 
+	.sheader {
+		padding-top: 0%;
+		width: 100%;
+	}
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -405,6 +376,7 @@ button:hover {
     
     .nav-bar :nth-child(7) {
         order: -1;
+        padding-left: 30%;
     }
 
     nav a {
